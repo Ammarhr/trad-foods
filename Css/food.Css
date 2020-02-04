@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color:#cca300;   
+}
+
+header{
+    background-color: #ffd11a;
+    text-align: center;
+    
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px ;
+    margin: 7px;
+    border-style: solid ;
+    
+background-color:#d2d43a ;
+color: #66ccff;
+}
+ 
+nav ul li a {
+text-decoration: none;
+
+}
+article{
+    margin: 20px;
+}
+a  :hover {
+    color: chartreuse;
+}
+img {
+    size: 150px;
+    float: left;
+    padding: 10px;
+}
+
+article{
+    margin: 30px;
+}
