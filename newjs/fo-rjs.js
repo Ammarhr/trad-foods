@@ -1,3 +1,23 @@
+
+while(present !== "sweets" && present !== "foods"){
+    var present =  prompt("insert the what you want to search");
+   var typeFood;   
+}
+var typeFood = "";   
+var numberOfPhoto ;
+numberOfPhoto = prompt("how many images you want to show?");
+
+for(var i = 0; i < numberOfPhoto ; i++){
+    console.log("index is" + i);
+     if (present=== "sweets" ){
+         typeFood = typeFood + '<img src="images/sweet.jpg">';
+     } else if (present ==="foods"){
+         typeFood = typeFood + '<img src="images/foods.png">';
+     }  
+}
+
+document.write('<h3>' + typeFood + '</h3>');
+
 function greeting(){
 
     var present =  prompt("insert the time","between 0-24");
@@ -15,18 +35,8 @@ function greeting(){
     
 return welcomemsg ;
 }
-
-welcomemsg =  greeting();
+welcomemsg = greeting();
 
 document.write('<h3>' + welcomemsg + '</h3>');
 
-var msg;
-var r = confirm("press any button");
-if (r == true) {
-  msg = "You pressed OK!";
-} else {
-    msg = "You pressed Cancel!";
-}
-
- alert ("Hi\n^-^");
-
+alert ("Welcom and injoy\n^-^");
