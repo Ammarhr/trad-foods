@@ -1,6 +1,6 @@
 
 while(present !== "sweets" && present !== "foods"){
-    var present =  prompt("insert the what you want to search");
+    var present =  prompt("coose what you want (foods,sweets)");
    var typeFood;   
 }
 var typeFood = "";   
